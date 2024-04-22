@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .login-logo{
+      width: 100px;
+      height: 60px;
+  }
+  .flex{
+      display: flex;
+  }
+  .logo img{
+      height: 50px;
+  }
+  .navbar{
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      background-color: #98ABEE;
+      padding: 10px 30px;
+  }
+  .inner-navbar-link{
+      /*width: 30%;*/
+      align-items: center;
+      justify-content: space-evenly;
+      gap: 2rem;
+      font-size: 20px;
+  }
+  .inner{
+      gap: 5px;
+      border: none;
+      border-radius: 10px;
+      padding: 10px 20px;
+      background-color: #DFF5FF;
+  }
+  .inner a{
+      text-decoration: none;
+      color: black;
+  }
+  .inner:hover{
+      background-color: black;
+  }
+  .inner:hover a{
+      color: aliceblue;
+  }
+  .account-logo img{
+      height: 50px;
+  }
+
+
+ /* -------------  Registration part ---------------- */
+ .registration {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #98ABEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 60px;
+  }
+  .container {
+    background-color: #B3C8CF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    animation: slideIn 0.5s ease forwards;
+    font-size: 20px;
+    color: black;
+  }
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-50%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  .notice {
+    color: red;
+    margin-top: 10px;
+  }
+.registerText{
+    font-size: 30px;
+    font-weight: 500;
+    
+}

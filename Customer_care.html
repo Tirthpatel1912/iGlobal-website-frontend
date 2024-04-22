@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>customer Care</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="Customer_care.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Angkor&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar flex">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./images/iGlobal-new-logo.png" alt="iGlobal Logo">
+                </a>
+            </div>
+            <div class="inner-navbar-link flex">
+                <div class="inner"><a href="Buy.html">Buy</a></div>
+                <div class="inner"><a href="Company_registration.html">Company Registration</a></div>
+                <div class="flex inner" type="button">
+                    <a href="./Loginpage.html">Login</a>
+                </div>
+                <div class="account-logo">
+                    <a href="">
+                        <img src="./images/Account-img.png" alt="Account logo">
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div style="text-align:center; margin-bottom: 20px;" >
+          <h2>Contact Us</h2>
+          <p>Send your any query by filling this form</p>
+          <p>We reach you as soon as possible</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="./images/customer care.png" style="width:100%">
+          </div>
+          <div class="column">
+            <form action="">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="comid">Enter your ID:</label>
+              <input type="text" id="compid" name="id" placeholder="########">
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="india">India</option>
+                <option value="mexico">Mexico</option>
+                <option value="thailand">Thailand</option>
+              </select>
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

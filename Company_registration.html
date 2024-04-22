@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iGlobal | company-registration</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Angkor&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-registration.css">
+</head>
+<body>
+    <header>
+        <div class="navbar flex">
+            <div class="logo">
+                <a href="home.html">
+                    <img src="./images/iGlobal-new-logo.png" alt="iGlobal Logo">
+                </a>
+            </div>
+            <div class="inner-navbar-link flex">
+                <div class="inner"><a href="./Buy.html">Buy</a></div>
+                <div class="inner"><a href="./Customer_care.html">customer care</a></div>
+                <div class="inner" type="button">
+                    <a href="./Loginpage.html">Login</a>
+                </div>
+                <div class="account-logo">
+                    <a href="">
+                        <img src="./images/Account-img.png" alt="Account logo">
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+    
+    <div class="registration">
+        <div class="registerText">
+            <p style="font-weight: 700; font-size: 40px;">Make a move to Global</p>
+            <p>Register your Company to iGlobal</p>
+        </div>
+        <div class="container">
+            <form>
+              <label for="company_name">Company Name:</label>
+              <input type="text" id="company_name" name="company_name" required>
+              
+              <label for="city">City:</label>
+              <input type="text" id="city" name="city" required>
+              
+              <label for="state">State:</label>
+              <input type="text" id="state" name="state" required>
+              
+              <label for="country">Country:</label>
+              <input type="text" id="country" name="country" required>
+              
+              <label for="gst_number">Company  Number:</label>
+              <input type="text" id="gst_number" name="gst_number" required>
+              
+              <label for="company_work">Define Your Company Work:</label>
+              <input type="text" id="company_work" name="company_work" required>
+              
+              <button type="submit">Register</button>
+              <button type="button">Login</button>
+            </form>
+            <p class="notice">Notice: It takes minimum 12 hours to Register your company.</p>
+          </div>
+    </div>
+</body>
+</html>
